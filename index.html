@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/fontello.css">
+    <link rel="stylesheet" href="./global.css">
+    <style>
+        *{
+            margin: 0;padding: 0;box-sizing: border-box;
+        }
+        svg{
+            width: 500px;
+            height: 500px;
+            display: block;
+            margin: 100px auto;
+            /* border: 2px solid black; */
+            >circle{
+                fill: pink;
+                stroke-width: 10px;
+                stroke: rgb(60, 88, 247);
+                stroke-dasharray: 0px 1538px;
+                stroke-dashoffset: 410px;
+                animation: prog 4s linear forwards infinite 1s;
+               
+
+            }
+        }
+        @keyframes prog{
+          to{
+            stroke-dasharray: 1154px 384px;
+          }
+        }
+    </style>
+</head>
+<body>
+    <svg>
+        <circle r="49%" cx="50%" cy="50%" />
+    </svg>
+
+
+    <figure class="footer">
+        <a href="https://github.com/mohammadrezaafroozi" target="_blank">
+            <i class="icon-github-circled-alt2"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mohammad-reza-afroozi-65886b349/" target="_blank">
+            <i class=" icon-linkedin-squared"></i>
+        </a>
+        <a href="https://www.instagram.com/afroozi_dev?igsh=MWNvODk2dGwwY29o" target="_blank">
+            <i class=" icon-instagram"></i>
+        </a>
+        <img src="./img/myphoto.jpg" alt="">
+        <figcaption>Mohammad Afroozi</figcaption>
+    </figure>
+</body>
+
+</body>
+
+
+</html>
